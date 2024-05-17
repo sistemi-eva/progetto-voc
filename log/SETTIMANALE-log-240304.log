@@ -1,0 +1,335 @@
+. 2024-03-04 08:03:28.743 --------------------------------------------------------------------------
+. 2024-03-04 08:03:28.743 WinSCP Versione 6.1.1 (Build 13736 2023-06-21) (OS 10.0.17763 – Windows Server 2019 Standard)
+. 2024-03-04 08:03:28.743 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2024-03-04 08:03:28.743 Log level: Normal
+. 2024-03-04 08:03:28.743 Local account: DB-BI\Administrator
+. 2024-03-04 08:03:28.743 Working directory: C:\Windows\system32
+. 2024-03-04 08:03:28.743 Process ID: 2688
+. 2024-03-04 08:03:28.743 Ancestor processes: cmd, ...
+. 2024-03-04 08:03:28.743 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe"  /log="C:\VOC\log.log" /command "open sftp://uniongas:***@sftp.sandsiv.com -hostkey=*"     "lcd C:\VOC\download"     "cd /uniongas/InputFiles"     "put *"     "close"     "exit"
+. 2024-03-04 08:03:28.743 Time zone: Current: GMT+1, Standard: GMT+1 (ora solare Europa occidentale), DST: GMT+2 (ora legale Europa occidentale), DST Start: 31/03/2024, DST End: 27/10/2024
+. 2024-03-04 08:03:28.743 Login time: lunedì 4 marzo 2024 08:03:28
+. 2024-03-04 08:03:28.743 --------------------------------------------------------------------------
+. 2024-03-04 08:03:28.743 Script: Retrospectively logging previous script records:
+> 2024-03-04 08:03:28.743 Script: open sftp://uniongas:***@sftp.sandsiv.com -hostkey=*
+. 2024-03-04 08:03:28.743 --------------------------------------------------------------------------
+. 2024-03-04 08:03:28.743 Session name: uniongas@sftp.sandsiv.com (Ad-Hoc site)
+. 2024-03-04 08:03:28.743 Host name: sftp.sandsiv.com (Port: 22)
+. 2024-03-04 08:03:28.743 User name: uniongas (Password: Yes, Key file: No, Passphrase: No)
+. 2024-03-04 08:03:28.743 Tunnel: No
+. 2024-03-04 08:03:28.743 Transfer Protocol: SFTP
+. 2024-03-04 08:03:28.743 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2024-03-04 08:03:28.743 Disable Nagle: No
+. 2024-03-04 08:03:28.743 Proxy: None
+. 2024-03-04 08:03:28.743 Send buffer: 262144
+. 2024-03-04 08:03:28.743 Compression: No
+. 2024-03-04 08:03:28.743 Bypass authentication: No
+. 2024-03-04 08:03:28.743 Try agent: Yes; Agent forwarding: No; KI: Yes; GSSAPI: Yes
+. 2024-03-04 08:03:28.743 GSSAPI: KEX: No; Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2024-03-04 08:03:28.743 Ciphers: aes,chacha20,aesgcm,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2024-03-04 08:03:28.743 KEX: ntru-curve25519,ecdh,dh-gex-sha1,dh-group18-sha512,dh-group17-sha512,dh-group16-sha512,dh-group15-sha512,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2024-03-04 08:03:28.743 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2024-03-04 08:03:28.743 Simple channel: Yes
+. 2024-03-04 08:03:28.743 Return code variable: Autodetect; Lookup user groups: Auto
+. 2024-03-04 08:03:28.743 Shell: default
+. 2024-03-04 08:03:28.743 EOL: LF, UTF: Auto
+. 2024-03-04 08:03:28.743 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2024-03-04 08:03:28.743 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2024-03-04 08:03:28.743 SFTP Bugs: Auto,Auto
+. 2024-03-04 08:03:28.743 SFTP Server: default
+. 2024-03-04 08:03:28.743 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2024-03-04 08:03:28.743 Cache directory changes: Yes, Permanent: Yes
+. 2024-03-04 08:03:28.743 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2024-03-04 08:03:28.743 DST mode: Unix
+. 2024-03-04 08:03:28.743 --------------------------------------------------------------------------
+< 2024-03-04 08:03:28.743 Script: Ricerca host ...
+. 2024-03-04 08:03:28.743 Looking up host "sftp.sandsiv.com" for SSH connection
+. 2024-03-04 08:03:28.759 Connecting to 77.109.144.51 port 22
+. 2024-03-04 08:03:28.790 Connected to 77.109.144.51
+< 2024-03-04 08:03:28.790 Script: Connessione host ...
+. 2024-03-04 08:03:28.790 We claim version: SSH-2.0-WinSCP_release_6.1.1
+. 2024-03-04 08:03:28.790 Connected to 77.109.144.51
+. 2024-03-04 08:03:28.821 Remote version: SSH-2.0-OpenSSH_5.3
+. 2024-03-04 08:03:28.821 We believe remote version has SSH-2 channel request bug
+. 2024-03-04 08:03:28.821 Using SSH protocol version 2
+. 2024-03-04 08:03:28.868 Doing Diffie-Hellman group exchange
+. 2024-03-04 08:03:28.884 Doing Diffie-Hellman key exchange using 4096-bit modulus and hash SHA-256 with a server-supplied group
+. 2024-03-04 08:03:31.074 Server also has ssh-dss host key, but we don't know it
+. 2024-03-04 08:03:31.074 Host key fingerprint is:
+. 2024-03-04 08:03:31.074 ssh-rsa 2048 SHA256:eelF88eFuOlODwKGUpnnqatJdFSTRhBSqEJAos67GqQ
+< 2024-03-04 08:03:31.074 Script: Autenticazione ...
+< 2024-03-04 08:03:31.074 Script: ATTENZIONE! Stai rinunciando alla sicurezza e accettando ogni chiave come configurato!
+* 2024-03-04 08:03:31.074 ATTENZIONE! Stai rinunciando alla sicurezza e accettando ogni chiave come configurato!
+. 2024-03-04 08:03:31.074 Initialised AES-256 SDCTR (unaccelerated) [aes256-ctr] outbound encryption
+. 2024-03-04 08:03:31.074 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2024-03-04 08:03:31.074 Initialised AES-256 SDCTR (unaccelerated) [aes256-ctr] inbound encryption
+. 2024-03-04 08:03:31.074 Initialised HMAC-SHA-256 inbound MAC algorithm
+! 2024-03-04 08:03:31.090 Using username "uniongas".
+< 2024-03-04 08:03:31.090 Script: Usa nome utente "uniongas".
+. 2024-03-04 08:03:31.121 Server offered these authentication methods: publickey,gssapi-keyex,gssapi-with-mic,password
+. 2024-03-04 08:03:31.121 Using SSPI from SECUR32.DLL
+. 2024-03-04 08:03:31.121 Trying gssapi-with-mic...
+. 2024-03-04 08:03:31.121 Attempting GSSAPI authentication
+. 2024-03-04 08:03:31.138 GSSAPI authentication request refused
+. 2024-03-04 08:03:31.138 Server offered these authentication methods: publickey,gssapi-keyex,gssapi-with-mic,password
+. 2024-03-04 08:03:31.138 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2024-03-04 08:03:31.138 Using stored password.
+< 2024-03-04 08:03:31.138 Script: Autenticazione con password preimpostata
+. 2024-03-04 08:03:31.138 Sent password
+. 2024-03-04 08:03:31.201 Access granted
+. 2024-03-04 08:03:31.201 Opening main session channel
+. 2024-03-04 08:03:31.375 Opened main channel
+. 2024-03-04 08:03:31.391 Started a shell/command
+< 2024-03-04 08:03:31.391 Script: Autenticato.
+. 2024-03-04 08:03:31.391 --------------------------------------------------------------------------
+. 2024-03-04 08:03:31.391 Using SFTP protocol.
+. 2024-03-04 08:03:31.391 Doing startup conversation with host.
+< 2024-03-04 08:03:31.391 Script: Avvio sessione ...
+> 2024-03-04 08:03:31.391 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2024-03-04 08:03:31.407 Type: SSH_FXP_VERSION, Size: 95, Number: -1
+. 2024-03-04 08:03:31.407 SFTP version 3 negotiated.
+. 2024-03-04 08:03:31.407 Unknown server extension posix-rename@openssh.com="1"
+. 2024-03-04 08:03:31.422 Supports statvfs@openssh.com extension version 2
+. 2024-03-04 08:03:31.422 Unknown server extension fstatvfs@openssh.com="2"
+. 2024-03-04 08:03:31.422 We believe the server has signed timestamps bug
+. 2024-03-04 08:03:31.422 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2024-03-04 08:03:31.422 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2024-03-04 08:03:31.422 Getting current directory name.
+. 2024-03-04 08:03:31.422 Getting real path for '.'
+> 2024-03-04 08:03:31.422 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2024-03-04 08:03:31.438 Type: SSH_FXP_NAME, Size: 39, Number: 16
+. 2024-03-04 08:03:31.438 Real path is '/uniongas'
+. 2024-03-04 08:03:31.438 Startup conversation with host finished.
+< 2024-03-04 08:03:31.438 Script: Sessione avviata.
+< 2024-03-04 08:03:31.438 Script: Sessione attiva: [1] uniongas@sftp.sandsiv.com
+> 2024-03-04 08:03:31.438 Script: lcd C:\VOC\download
+< 2024-03-04 08:03:31.438 Script: C:\VOC\download
+> 2024-03-04 08:03:31.438 Script: cd /uniongas/InputFiles
+. 2024-03-04 08:03:31.438 Cached directory change via "/uniongas/InputFiles" to "/uniongas/InputFiles".
+. 2024-03-04 08:03:31.438 Getting current directory name.
+< 2024-03-04 08:03:31.438 Script: /uniongas/InputFiles
+> 2024-03-04 08:03:31.438 Script: put *
+. 2024-03-04 08:03:31.438 Copying 3 files/directories to remote directory "/uniongas/InputFiles" - total size: 637.934
+. 2024-03-04 08:03:31.438   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2024-03-04 08:03:31.438   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2024-03-04 08:03:31.438   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2024-03-04 08:03:31.438 File: 'subentro_240304.csv' [2024-03-04T08:00:07.000Z] [293062]
+. 2024-03-04 08:03:31.438 Copying "subentro_240304.csv" to remote directory started.
+. 2024-03-04 08:03:31.438 Binary transfer mode selected.
+. 2024-03-04 08:03:31.438 Checking existence of file.
+> 2024-03-04 08:03:31.438 Type: SSH_FXP_LSTAT, Size: 49, Number: 263
+< 2024-03-04 08:03:31.469 Type: SSH_FXP_STATUS, Size: 29, Number: 263
+< 2024-03-04 08:03:31.469 Status code: 2
+. 2024-03-04 08:03:31.469 Checking existence of partially transferred file.
+> 2024-03-04 08:03:31.469 Type: SSH_FXP_LSTAT, Size: 58, Number: 519
+< 2024-03-04 08:03:31.500 Type: SSH_FXP_STATUS, Size: 29, Number: 519
+< 2024-03-04 08:03:31.500 Status code: 2
+. 2024-03-04 08:03:31.500 Opening remote file.
+> 2024-03-04 08:03:31.500 Type: SSH_FXP_OPEN, Size: 74, Number: 771
+< 2024-03-04 08:03:31.532 Type: SSH_FXP_HANDLE, Size: 13, Number: 771
+> 2024-03-04 08:03:31.532 Type: SSH_FXP_WRITE, Size: 32761, Number: 1286
+. 2024-03-04 08:03:31.547 Skipped 8 SSH_FXP_WRITE packets
+> 2024-03-04 08:03:31.547 Type: SSH_FXP_CLOSE, Size: 13, Number: 3588
+< 2024-03-04 08:03:31.578 Type: SSH_FXP_STATUS, Size: 24, Number: 1286
+< 2024-03-04 08:03:31.578 Status code: 0
+. 2024-03-04 08:03:31.735 Skipped 8 SSH_FXP_STATUS packets
+< 2024-03-04 08:03:31.735 Type: SSH_FXP_STATUS, Size: 24, Number: 3588
+< 2024-03-04 08:03:31.735 Status code: 0
+> 2024-03-04 08:03:31.735 Type: SSH_FXP_RENAME, Size: 102, Number: 3858
+< 2024-03-04 08:03:31.782 Type: SSH_FXP_STATUS, Size: 24, Number: 3858
+< 2024-03-04 08:03:31.782 Status code: 0
+. 2024-03-04 08:03:31.782 Preserving timestamp [2024-03-04T08:00:07.000Z]
+> 2024-03-04 08:03:31.782 Type: SSH_FXP_SETSTAT, Size: 61, Number: 1033
+< 2024-03-04 08:03:31.829 Type: SSH_FXP_STATUS, Size: 24, Number: 1033
+< 2024-03-04 08:03:31.829 Status code: 0
+. 2024-03-04 08:03:31.829 Transfer done: 'subentro_240304.csv' => '/uniongas/InputFiles/subentro_240304.csv' [293062]
+. 2024-03-04 08:03:31.829 File: 'switchin_240304.csv' [2024-03-04T08:02:13.000Z] [295181]
+. 2024-03-04 08:03:31.829 Copying "switchin_240304.csv" to remote directory started.
+. 2024-03-04 08:03:31.829 Binary transfer mode selected.
+. 2024-03-04 08:03:31.829 Checking existence of file.
+> 2024-03-04 08:03:31.829 Type: SSH_FXP_LSTAT, Size: 49, Number: 4103
+< 2024-03-04 08:03:31.845 Type: SSH_FXP_STATUS, Size: 29, Number: 4103
+< 2024-03-04 08:03:31.845 Status code: 2
+. 2024-03-04 08:03:31.845 Checking existence of partially transferred file.
+> 2024-03-04 08:03:31.845 Type: SSH_FXP_LSTAT, Size: 58, Number: 4359
+< 2024-03-04 08:03:31.876 Type: SSH_FXP_STATUS, Size: 29, Number: 4359
+< 2024-03-04 08:03:31.876 Status code: 2
+. 2024-03-04 08:03:31.876 Opening remote file.
+> 2024-03-04 08:03:31.876 Type: SSH_FXP_OPEN, Size: 74, Number: 4611
+< 2024-03-04 08:03:31.907 Type: SSH_FXP_HANDLE, Size: 13, Number: 4611
+> 2024-03-04 08:03:31.907 Type: SSH_FXP_WRITE, Size: 32761, Number: 5126
+. 2024-03-04 08:03:31.923 Skipped 9 SSH_FXP_WRITE packets
+> 2024-03-04 08:03:31.923 Type: SSH_FXP_CLOSE, Size: 13, Number: 7684
+< 2024-03-04 08:03:31.938 Type: SSH_FXP_STATUS, Size: 24, Number: 5126
+< 2024-03-04 08:03:31.938 Status code: 0
+. 2024-03-04 08:03:32.439 Skipped 9 SSH_FXP_STATUS packets
+< 2024-03-04 08:03:32.439 Type: SSH_FXP_STATUS, Size: 24, Number: 7684
+< 2024-03-04 08:03:32.439 Status code: 0
+> 2024-03-04 08:03:32.439 Type: SSH_FXP_RENAME, Size: 102, Number: 7954
+< 2024-03-04 08:03:32.486 Type: SSH_FXP_STATUS, Size: 24, Number: 7954
+< 2024-03-04 08:03:32.486 Status code: 0
+. 2024-03-04 08:03:32.486 Preserving timestamp [2024-03-04T08:02:13.000Z]
+> 2024-03-04 08:03:32.486 Type: SSH_FXP_SETSTAT, Size: 61, Number: 4873
+< 2024-03-04 08:03:32.517 Type: SSH_FXP_STATUS, Size: 24, Number: 4873
+< 2024-03-04 08:03:32.517 Status code: 0
+. 2024-03-04 08:03:32.517 Transfer done: 'switchin_240304.csv' => '/uniongas/InputFiles/switchin_240304.csv' [295181]
+. 2024-03-04 08:03:32.517 File: 'voltura_240304.csv' [2024-03-04T08:03:08.000Z] [49691]
+. 2024-03-04 08:03:32.517 Copying "voltura_240304.csv" to remote directory started.
+. 2024-03-04 08:03:32.517 Binary transfer mode selected.
+. 2024-03-04 08:03:32.517 Opening remote file.
+> 2024-03-04 08:03:32.517 Type: SSH_FXP_OPEN, Size: 64, Number: 8195
+< 2024-03-04 08:03:32.549 Type: SSH_FXP_HANDLE, Size: 13, Number: 8195
+> 2024-03-04 08:03:32.549 Type: SSH_FXP_WRITE, Size: 32761, Number: 8710
+. 2024-03-04 08:03:32.549 Skipped 1 SSH_FXP_WRITE packets
+> 2024-03-04 08:03:32.549 Type: SSH_FXP_CLOSE, Size: 13, Number: 9220
+> 2024-03-04 08:03:32.549 Type: SSH_FXP_SETSTAT, Size: 60, Number: 8457
+< 2024-03-04 08:03:32.580 Type: SSH_FXP_STATUS, Size: 24, Number: 8710
+< 2024-03-04 08:03:32.580 Status code: 0
+. 2024-03-04 08:03:32.611 Skipped 1 SSH_FXP_STATUS packets
+< 2024-03-04 08:03:32.611 Type: SSH_FXP_STATUS, Size: 24, Number: 9220
+< 2024-03-04 08:03:32.611 Status code: 0
+. 2024-03-04 08:03:32.611 Preserving timestamp [2024-03-04T08:03:08.000Z]
+< 2024-03-04 08:03:32.627 Type: SSH_FXP_STATUS, Size: 24, Number: 8457
+< 2024-03-04 08:03:32.627 Status code: 0
+. 2024-03-04 08:03:32.627 Transfer done: 'voltura_240304.csv' => '/uniongas/InputFiles/voltura_240304.csv' [49691]
+. 2024-03-04 08:03:32.627 Copying finished: Transferred: 637.934, Elapsed: 0:00:01, CPS: 536.529/s
+> 2024-03-04 08:03:32.627 Script: close
+. 2024-03-04 08:03:32.627 Closing connection.
+. 2024-03-04 08:03:32.627 Sending special code: 1
+. 2024-03-04 08:03:32.642 Session sent command exit status 0
+. 2024-03-04 08:03:32.642 Main session channel closed
+. 2024-03-04 08:03:32.642 All channels closed
+. 2024-03-04 08:03:32.785 --------------------------------------------------------------------------
+. 2024-03-04 08:03:32.785 WinSCP Versione 6.1.1 (Build 13736 2023-06-21) (OS 10.0.17763 – Windows Server 2019 Standard)
+. 2024-03-04 08:03:32.785 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2024-03-04 08:03:32.785 Log level: Normal
+. 2024-03-04 08:03:32.785 Local account: DB-BI\Administrator
+. 2024-03-04 08:03:32.785 Working directory: C:\Windows\system32
+. 2024-03-04 08:03:32.785 Process ID: 8952
+. 2024-03-04 08:03:32.801 Ancestor processes: cmd, ...
+. 2024-03-04 08:03:32.801 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe"  /log="C:\VOC\log.log" /command "open sftp://uniongas:***@sftp.sandsiv.com -hostkey=*" 	"cd /uniongas/InputFiles"     "ls" 	"close"     "exit"
+. 2024-03-04 08:03:32.801 Time zone: Current: GMT+1, Standard: GMT+1 (ora solare Europa occidentale), DST: GMT+2 (ora legale Europa occidentale), DST Start: 31/03/2024, DST End: 27/10/2024
+. 2024-03-04 08:03:32.801 Login time: lunedì 4 marzo 2024 08:03:32
+. 2024-03-04 08:03:32.801 --------------------------------------------------------------------------
+. 2024-03-04 08:03:32.801 Script: Retrospectively logging previous script records:
+> 2024-03-04 08:03:32.801 Script: open sftp://uniongas:***@sftp.sandsiv.com -hostkey=*
+. 2024-03-04 08:03:32.801 --------------------------------------------------------------------------
+. 2024-03-04 08:03:32.801 Session name: uniongas@sftp.sandsiv.com (Ad-Hoc site)
+. 2024-03-04 08:03:32.801 Host name: sftp.sandsiv.com (Port: 22)
+. 2024-03-04 08:03:32.801 User name: uniongas (Password: Yes, Key file: No, Passphrase: No)
+. 2024-03-04 08:03:32.801 Tunnel: No
+. 2024-03-04 08:03:32.801 Transfer Protocol: SFTP
+. 2024-03-04 08:03:32.801 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2024-03-04 08:03:32.801 Disable Nagle: No
+. 2024-03-04 08:03:32.801 Proxy: None
+. 2024-03-04 08:03:32.801 Send buffer: 262144
+. 2024-03-04 08:03:32.801 Compression: No
+. 2024-03-04 08:03:32.801 Bypass authentication: No
+. 2024-03-04 08:03:32.801 Try agent: Yes; Agent forwarding: No; KI: Yes; GSSAPI: Yes
+. 2024-03-04 08:03:32.801 GSSAPI: KEX: No; Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2024-03-04 08:03:32.801 Ciphers: aes,chacha20,aesgcm,3des,WARN,des,blowfish,arcfour; Ssh2DES: No
+. 2024-03-04 08:03:32.801 KEX: ntru-curve25519,ecdh,dh-gex-sha1,dh-group18-sha512,dh-group17-sha512,dh-group16-sha512,dh-group15-sha512,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2024-03-04 08:03:32.801 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2024-03-04 08:03:32.801 Simple channel: Yes
+. 2024-03-04 08:03:32.801 Return code variable: Autodetect; Lookup user groups: Auto
+. 2024-03-04 08:03:32.801 Shell: default
+. 2024-03-04 08:03:32.801 EOL: LF, UTF: Auto
+. 2024-03-04 08:03:32.801 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2024-03-04 08:03:32.801 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2024-03-04 08:03:32.801 SFTP Bugs: Auto,Auto
+. 2024-03-04 08:03:32.801 SFTP Server: default
+. 2024-03-04 08:03:32.801 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2024-03-04 08:03:32.801 Cache directory changes: Yes, Permanent: Yes
+. 2024-03-04 08:03:32.801 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2024-03-04 08:03:32.801 DST mode: Unix
+. 2024-03-04 08:03:32.801 --------------------------------------------------------------------------
+< 2024-03-04 08:03:32.801 Script: Ricerca host ...
+. 2024-03-04 08:03:32.801 Looking up host "sftp.sandsiv.com" for SSH connection
+. 2024-03-04 08:03:32.801 Connecting to 77.109.144.51 port 22
+. 2024-03-04 08:03:32.816 Connected to 77.109.144.51
+< 2024-03-04 08:03:32.816 Script: Connessione host ...
+. 2024-03-04 08:03:32.816 We claim version: SSH-2.0-WinSCP_release_6.1.1
+. 2024-03-04 08:03:32.816 Connected to 77.109.144.51
+. 2024-03-04 08:03:32.847 Remote version: SSH-2.0-OpenSSH_5.3
+. 2024-03-04 08:03:32.847 We believe remote version has SSH-2 channel request bug
+. 2024-03-04 08:03:32.847 Using SSH protocol version 2
+. 2024-03-04 08:03:32.863 Doing Diffie-Hellman group exchange
+. 2024-03-04 08:03:32.894 Doing Diffie-Hellman key exchange using 4096-bit modulus and hash SHA-256 with a server-supplied group
+. 2024-03-04 08:03:35.038 Server also has ssh-dss host key, but we don't know it
+. 2024-03-04 08:03:35.038 Host key fingerprint is:
+. 2024-03-04 08:03:35.038 ssh-rsa 2048 SHA256:eelF88eFuOlODwKGUpnnqatJdFSTRhBSqEJAos67GqQ
+< 2024-03-04 08:03:35.038 Script: Autenticazione ...
+< 2024-03-04 08:03:35.038 Script: ATTENZIONE! Stai rinunciando alla sicurezza e accettando ogni chiave come configurato!
+* 2024-03-04 08:03:35.038 ATTENZIONE! Stai rinunciando alla sicurezza e accettando ogni chiave come configurato!
+. 2024-03-04 08:03:35.038 Initialised AES-256 SDCTR (unaccelerated) [aes256-ctr] outbound encryption
+. 2024-03-04 08:03:35.038 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2024-03-04 08:03:35.038 Initialised AES-256 SDCTR (unaccelerated) [aes256-ctr] inbound encryption
+. 2024-03-04 08:03:35.038 Initialised HMAC-SHA-256 inbound MAC algorithm
+! 2024-03-04 08:03:35.054 Using username "uniongas".
+< 2024-03-04 08:03:35.054 Script: Usa nome utente "uniongas".
+. 2024-03-04 08:03:35.085 Server offered these authentication methods: publickey,gssapi-keyex,gssapi-with-mic,password
+. 2024-03-04 08:03:35.085 Using SSPI from SECUR32.DLL
+. 2024-03-04 08:03:35.085 Trying gssapi-with-mic...
+. 2024-03-04 08:03:35.085 Attempting GSSAPI authentication
+. 2024-03-04 08:03:35.100 GSSAPI authentication request refused
+. 2024-03-04 08:03:35.100 Server offered these authentication methods: publickey,gssapi-keyex,gssapi-with-mic,password
+. 2024-03-04 08:03:35.100 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2024-03-04 08:03:35.100 Using stored password.
+< 2024-03-04 08:03:35.100 Script: Autenticazione con password preimpostata
+. 2024-03-04 08:03:35.100 Sent password
+. 2024-03-04 08:03:35.164 Access granted
+. 2024-03-04 08:03:35.164 Opening main session channel
+. 2024-03-04 08:03:35.320 Opened main channel
+. 2024-03-04 08:03:35.351 Started a shell/command
+< 2024-03-04 08:03:35.351 Script: Autenticato.
+. 2024-03-04 08:03:35.351 --------------------------------------------------------------------------
+. 2024-03-04 08:03:35.351 Using SFTP protocol.
+. 2024-03-04 08:03:35.351 Doing startup conversation with host.
+< 2024-03-04 08:03:35.351 Script: Avvio sessione ...
+> 2024-03-04 08:03:35.351 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2024-03-04 08:03:35.367 Type: SSH_FXP_VERSION, Size: 95, Number: -1
+. 2024-03-04 08:03:35.367 SFTP version 3 negotiated.
+. 2024-03-04 08:03:35.367 Unknown server extension posix-rename@openssh.com="1"
+. 2024-03-04 08:03:35.367 Supports statvfs@openssh.com extension version 2
+. 2024-03-04 08:03:35.367 Unknown server extension fstatvfs@openssh.com="2"
+. 2024-03-04 08:03:35.367 We believe the server has signed timestamps bug
+. 2024-03-04 08:03:35.367 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2024-03-04 08:03:35.367 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2024-03-04 08:03:35.367 Getting current directory name.
+. 2024-03-04 08:03:35.367 Getting real path for '.'
+> 2024-03-04 08:03:35.367 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2024-03-04 08:03:35.383 Type: SSH_FXP_NAME, Size: 39, Number: 16
+. 2024-03-04 08:03:35.383 Real path is '/uniongas'
+. 2024-03-04 08:03:35.383 Startup conversation with host finished.
+< 2024-03-04 08:03:35.383 Script: Sessione avviata.
+< 2024-03-04 08:03:35.383 Script: Sessione attiva: [1] uniongas@sftp.sandsiv.com
+> 2024-03-04 08:03:35.383 Script: cd /uniongas/InputFiles
+. 2024-03-04 08:03:35.383 Cached directory change via "/uniongas/InputFiles" to "/uniongas/InputFiles".
+. 2024-03-04 08:03:35.383 Getting current directory name.
+< 2024-03-04 08:03:35.383 Script: /uniongas/InputFiles
+> 2024-03-04 08:03:35.383 Script: ls
+. 2024-03-04 08:03:35.383 Listing directory "/uniongas/InputFiles".
+> 2024-03-04 08:03:35.383 Type: SSH_FXP_OPENDIR, Size: 29, Number: 267
+< 2024-03-04 08:03:35.414 Type: SSH_FXP_HANDLE, Size: 13, Number: 267
+> 2024-03-04 08:03:35.414 Type: SSH_FXP_READDIR, Size: 13, Number: 524
+< 2024-03-04 08:03:35.445 Type: SSH_FXP_NAME, Size: 607, Number: 524
+> 2024-03-04 08:03:35.445 Type: SSH_FXP_READDIR, Size: 13, Number: 780
+< 2024-03-04 08:03:35.461 Type: SSH_FXP_STATUS, Size: 28, Number: 780
+< 2024-03-04 08:03:35.461 Status code: 1
+> 2024-03-04 08:03:35.461 Type: SSH_FXP_CLOSE, Size: 13, Number: 1028
+. 2024-03-04 08:03:35.461 .;d;0;2024-03-04T07:03:32.000Z;4;"760" [760];"768" [768];rwxrwx---;0
+. 2024-03-04 08:03:35.461 ..;d;0;2023-06-21T14:45:19.000Z;4;"760" [760];"768" [768];rwxrwx---;0
+. 2024-03-04 08:03:35.461 voltura_240304.csv;-;49691;2024-03-04T08:03:08.000Z;4;"760" [760];"753" [753];rw-r--r--;0
+. 2024-03-04 08:03:35.461 subentro_240304.csv;-;293062;2024-03-04T08:00:07.000Z;4;"760" [760];"753" [753];rw-r--r--;0
+. 2024-03-04 08:03:35.461 switchin_240304.csv;-;295181;2024-03-04T08:02:13.000Z;4;"760" [760];"753" [753];rw-r--r--;0
+< 2024-03-04 08:03:35.461 Script: drwxrwx---   2 760      768           4096 Mar  4  8:03:32 2024 .
+< 2024-03-04 08:03:35.461 Script: drwxrwx---   5 760      768           4096 Jun 21 16:45:19 2023 ..
+< 2024-03-04 08:03:35.461 Script: -rw-r--r--   1 760      753          49691 Mar  4  9:03:08 2024 voltura_240304.csv
+< 2024-03-04 08:03:35.461 Script: -rw-r--r--   1 760      753         293062 Mar  4  9:00:07 2024 subentro_240304.csv
+< 2024-03-04 08:03:35.461 Script: -rw-r--r--   1 760      753         295181 Mar  4  9:02:13 2024 switchin_240304.csv
+> 2024-03-04 08:03:35.461 Script: close
+. 2024-03-04 08:03:35.461 Closing connection.
+. 2024-03-04 08:03:35.461 Sending special code: 1
+. 2024-03-04 08:03:35.508 Session sent command exit status 0
+. 2024-03-04 08:03:35.508 Main session channel closed
+. 2024-03-04 08:03:35.508 All channels closed
