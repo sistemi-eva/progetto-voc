@@ -1,0 +1,12 @@
+{
+    "name": "sistemi/voc_project",
+    "type": "project",
+    "require": {
+        "phpseclib/phpseclib": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "Francesco Della Morte"
+        }
+    ]
+}

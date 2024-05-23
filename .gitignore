@@ -1,1 +1,6 @@
-log/
+logs/
+old/
+upload/
+vendor/
+config.php
+
