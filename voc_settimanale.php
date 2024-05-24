@@ -177,7 +177,7 @@ if ($environment == "prod"){ // || $environment == "test"){
 		goto invio_email;
     }
 } else {
-    logMessage("Ambiente " . $environment . " non riconosciuto. non sarà effettuato il caricamento su area SFTP.", $logFile);
+    logMessage("Ambiente non di produzione. Non sarà effettuato il caricamento su area SFTP.", $logFile);
 }
 
 invio_email:
